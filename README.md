@@ -99,6 +99,9 @@ meaningful fraction of students eat immediately after waking:
   period-based transition probabilities (pre-meal-1, between meals, post-last-meal)
 
 **Sampling**
+- `MNsim_sampler_P.f()` — multinomial sampling via sequential binomials, with
+  fixed and random time-point sampling
+- `MN_corr_sampler.f()` — Monte Carlo sampler for correlated activity sequences
 - `SVP.f()`, `samp_rnd.f()`, `propz()`, `activity.f()` — supporting sampling
   utilities (scaled probability vectors, fractional-count rounding, proportion
   confidence intervals)
